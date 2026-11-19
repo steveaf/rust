@@ -1,0 +1,8 @@
+[package]
+name = "rust-data-movement"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arrow = { version = "56.2.0", features = ["prettyprint"] }
+parquet = "56.2.0"
